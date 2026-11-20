@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonials | Mama Rose Mtalam</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Lato:wght@300;400;700&display=swap');
+        
+        body { background-color: #FDFBF7; color: #4A3B32; font-family: 'Lato', sans-serif; margin: 0; padding: 0; line-height: 1.8; }
+        h1, h2, h3 { font-family: 'Playfair Display', serif; font-weight: 600; margin-top: 0; }
+        
+        /* Navigation */
+        header { text-align: center; padding: 30px 0; background-color: #FDFBF7; border-bottom: 1px solid rgba(74, 59, 50, 0.1); position: sticky; top: 0; z-index: 100; }
+        .logo { font-family: 'Playfair Display', serif; font-size: 2rem; text-decoration: none; color: #B56A55; display: block; margin-bottom: 15px; letter-spacing: 2px; }
+        nav { display: flex; justify-content: center; gap: 25px; flex-wrap: wrap; }
+        nav a { text-decoration: none; color: #4A3B32; text-transform: uppercase; font-size: 0.75rem; letter-spacing: 1.5px; font-weight: 700; padding-bottom: 5px; border-bottom: 1px solid transparent; transition: all 0.3s; }
+        nav a:hover { color: #B56A55; border-bottom: 1px solid #B56A55; }
+
+        /* Global Containers */
+        .container { max-width: 900px; margin: 0 auto; padding: 0 20px; }
+        section { padding: 80px 0; }
+        .page-title { text-align: center; font-size: 3.5rem; color: #B56A55; margin-bottom: 10px; }
+        .page-subtitle { text-align: center; color: #5A4A40; font-size: 1.1rem; font-weight: 300; max-width: 600px; margin: 0 auto 60px auto; font-style: italic; }
+
+        /* Testimonials Layout */
+        .testimonial-container { max-width: 750px; margin: 0 auto; }
+        .testimonial-item { text-align: center; padding: 40px 0; border-bottom: 1px solid rgba(74, 59, 50, 0.1); }
+        .testimonial-item:last-child { border-bottom: none; }
+        
+        .testimonial-quote { font-family: 'Playfair Display', serif; font-size: 1.6rem; font-style: italic; color: #4A3B32; line-height: 1.5; margin-bottom: 25px; position: relative; }
+        .testimonial-quote::before { content: '"'; font-size: 4rem; color: rgba(181, 106, 85, 0.2); position: absolute; top: -20px; left: -20px; font-family: 'Playfair Display', serif; }
+        .testimonial-author { font-family: 'Lato', sans-serif; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 2px; color: #B56A55; font-weight: 700; }
+
+        /* Call to Action */
+        .cta-banner { background-color: #4A3B32; color: #FDFBF7; text-align: center; padding: 80px 20px; margin-top: 40px; }
+        .cta-banner h2 { font-size: 3rem; margin-bottom: 20px; color: #FDFBF7; }
+        .cta-banner p { font-weight: 300; font-size: 1.2rem; margin-bottom: 40px; opacity: 0.9; }
+        .btn { display: inline-block; background-color: #FDFBF7; color: #4A3B32; padding: 16px 40px; text-decoration: none; text-transform: uppercase; letter-spacing: 1.5px; font-size: 0.85rem; font-weight: 700; border-radius: 30px; transition: background 0.3s; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .btn:hover { background-color: #E8DCD1; }
+
+        /* Footer */
+        footer { text-align: center; padding: 40px 0; font-size: 0.85rem; color: #5A4A40; padding-bottom: 100px; }
+        footer a { color: #B56A55; text-decoration: none; font-weight: 700; }
+
+        /* Floating Buttons */
+        .floating-buttons { position: fixed; bottom: 25px; right: 25px; display: flex; flex-direction: column; gap: 12px; z-index: 1000; }
+        .float-btn { width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; text-decoration: none; box-shadow: 0 4px 15px rgba(0,0,0,0.25); transition: transform 0.2s; }
+        .float-btn:hover { transform: scale(1.1); }
+        .float-btn svg { width: 30px; height: 30px; fill: white; }
+        .whatsapp-btn { background-color: #25D366; }
+        .call-btn { background-color: #4A3B32; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo">Mama Rose.</a>
+            <nav>
+                <a href="services.html">Services</a>
+                <a href="about.html">About</a>
+                <a href="testimonials.html">Testimonials</a>
+                <a href="blog.html">Journal</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="container">
+        <h1 class="page-title">Client Stories</h1>
+        <p class="page-subtitle">Words from those who have walked the healing path.</p>
+        
+        <div class="testimonial-container">
+            <!-- Testimonial 1 -->
+            <div class="testimonial-item">
+                <div class="testimonial-quote">Mama Rose has a gift that is hard to put into words. The herbal remedies she created for my digestion changed my life, but it was the spiritual cleansing that truly lifted the heavy cloud I had been living under for years.</div>
+                <div class="testimonial-author">— Amara N.</div>
+            </div>
+
+            <!-- Testimonial 2 -->
+            <div class="testimonial-item">
+                <div class="testimonial-quote">I came to Mama Rose feeling completely disconnected from myself. Through her gentle guidance and the ancestral rituals, I was able to find a sense of peace and belonging I had never known. She is a true healer.</div>
+                <div class="testimonial-author">— Sarah K.</div>
+            </div>
+
+            <!-- Testimonial 3 -->
+            <div class="testimonial-item">
+                <div class="testimonial-quote">The space Mama Rose holds is deeply sacred. She listens with her whole heart. After my session and using her custom tinctures, my anxiety has quieted, and I feel grounded again.</div>
+                <div class="testimonial-author">— James O.</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-banner">
+        <div class="container">
+            <h2>Share Your Story</h2>
+            <p>If Mama Rose has helped you on your journey, we would love to hear about it. Or, if you are ready to begin, reach out today.</p>
+            <a href="contact.html" class="btn">Contact Mama Rose</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p><strong>Mama Rose Mtalam</strong></p>
+            <p><a href="mailto:mamarosemtalam@gmail.com">mamarosemtalam@gmail.com</a> | <a href="tel:+254184603508">+254 184 603 508</a></p>
+            <p>&copy; 2024 Mama Rose Mtalam. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Floating Buttons -->
+    <div class="floating-buttons">
+        <a href="https://wa.me/254184603508?text=Hello%20Mama%20Rose,%20I%20would%20like%20to%20book%20a%20consultation." target="_blank" class="float-btn whatsapp-btn" aria-label="Chat on WhatsApp">
+            <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+        </a>
+        <a href="tel:+254184603508" class="float-btn call-btn" aria-label="Call Us">
+            <svg viewBox="0 0 24 24"><path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56a.977.977 0 00-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.03 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z"/></svg>
+        </a>
+    </div>
+</body>
+</html>
